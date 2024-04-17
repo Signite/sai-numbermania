@@ -1,0 +1,8 @@
+.configure-form {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.configure-form * {
+    margin: 0;
+}
