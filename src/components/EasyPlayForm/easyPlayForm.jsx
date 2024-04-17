@@ -88,7 +88,7 @@ const EasyPlayForm = ({ back, options }) => {
       <div className="col-elements">
         <button onClick={back}>В меню</button>
         <div className="row-elements">
-          <h4>Время: {secodns} секунд</h4>
+          {setup && setup.showTimer && <h4>Время: {secodns} секунд</h4>}
           <h4>Счёт: {score}</h4>
         </div>
         <div className="example-block">

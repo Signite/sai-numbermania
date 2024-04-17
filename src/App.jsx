@@ -19,6 +19,7 @@ function App() {
     enablePlus: true,
     enableMinus: true,
     easy: true,
+    showTimer: false,
     progressiveDiаficulty: false
   });
 

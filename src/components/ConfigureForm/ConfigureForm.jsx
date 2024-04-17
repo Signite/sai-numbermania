@@ -39,6 +39,13 @@ const ConfigureForm = ({ options, setOptions, back }) => {
                 />
             </div>
             <div className="row-elements">
+                <h3>Показывать таймер</h3>
+                <input type="checkbox"
+                    checked={options.showTimer}
+                    onChange={(e) => setOptions((prev) => { return { ...prev, showTimer: e.target.checked } })}
+                />
+            </div>
+            <div className="row-elements">
                 <h3>Прогрессивная сложность</h3>
                 <input type="checkbox"
                     checked={options.progressiveDiаficulty}
