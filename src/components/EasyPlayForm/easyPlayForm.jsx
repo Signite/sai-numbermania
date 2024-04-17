@@ -95,7 +95,7 @@ const EasyPlayForm = ({ back, options }) => {
           <h2>{level.number1}</h2>
           <h2>{level.operation}</h2>
           <h2>{level.number2}</h2>
-          <h2>= ?</h2>
+          <h2>=</h2>
         </div>
         <input className={`answer-input ${answerCollor}`} type="number" value={answer} readOnly></input>
         <div className="number-buttons" >
